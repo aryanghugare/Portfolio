@@ -2,11 +2,11 @@ import { ProjectItem } from "../types";
 
 export const projectsData: ProjectItem[] = [
   {
-    title: "Hirrd",
+    title: "PlayGrid",
     description:
-      "A modern job portal application connecting talent with opportunities",
-    image: "hirrd.png",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
+      " Backend for a video hosting and streaming platform handling real-time uploads and personalized feeds ",
+    image: "",
+    tech: ["Node.js", "MongoDB", "Express"],
     github: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
     live: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
     details: {
@@ -24,9 +24,9 @@ export const projectsData: ProjectItem[] = [
     },
   },
   {
-    title: "Schedulrr",
-    description: "A Calendly clone for seamless meeting scheduling",
-    image: "schedulrr.png",
+    title: "TaskStack",
+    description: "Backend for project and workflow management built with Node.js, Express, and MongoDB, including secure authentication and real-time collaboration features.",
+    image: "",
     tech: ["Next.js", "TypeScript", "Prisma", "tRPC"],
     github: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
     live: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
@@ -46,7 +46,7 @@ export const projectsData: ProjectItem[] = [
   {
     title: "Zcrum",
     description: "A Jira-inspired project management solution",
-    image: "zcrum.png",
+    image: "",
     tech: ["React", "Redux", "Node.js", "PostgreSQL"],
     github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
     live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
@@ -66,7 +66,7 @@ export const projectsData: ProjectItem[] = [
   {
     title: "Reflct",
     description: "A minimalist journaling application",
-    image: "reflct.png",
+    image: "",
     tech: ["Next.js", "Tailwind CSS", "Supabase"],
     github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
     live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
