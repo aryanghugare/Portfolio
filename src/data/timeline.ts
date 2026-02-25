@@ -5,10 +5,10 @@ import { TimelineItem } from '../types';
 export const timelineData: TimelineItem[] = [
  
   {
-    year: '2021 - 2024',
-    title: 'Software Engineer',
-    company: 'Cars24',
-    description: 'Full Stack Development with React, Node.js, and AWS',
+    year: '2024',
+    title: 'Web Developer Intern',
+    company: 'YPP Technologies',
+    description: 'Built responsive UI modules for a College ERP with React, Redux Toolkit, and Tailwind CSS, reducing load time by 25%. Optimized REST APIs with Node.js and Express, improving response time by 30%. Secured 5,000+ user accounts with JWT-based RBAC. Reduced post-deployment bugs by 20% through team collaboration.',
     icon: 'work'
   },
 

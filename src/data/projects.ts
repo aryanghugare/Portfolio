@@ -7,80 +7,51 @@ export const projectsData: ProjectItem[] = [
       " Backend for a video hosting and streaming platform handling real-time uploads and personalized feeds ",
     image: "",
     tech: ["Node.js", "MongoDB", "Express"],
-    github: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
-    live: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
+    github: "https://github.com/aryanghugare/PlayGrid",
+    live: "",
     details: {
       problem:
-        "Traditional job boards lack modern features and user experience",
+        "Building a scalable, real-time video platform with efficient uploads, streaming, and user engagement is complex and resource-intensive.",
       solution:
-        "Built a streamlined job portal with real-time updates and intelligent matching",
+        "Developed a distributed backend system for video uploads, streaming, user history, and recommendations, inspired by YouTube.",
       features: [
-        "Real-time job notifications",
-        "AI-powered job matching",
-        "Advanced search filters",
-        "Application tracking system",
+        "Optimized video upload, encoding, and storage management",
+        "Low-latency streaming and playback",
+        "User authentication and access control (JWT, OAuth 2.0)",
+        "Watch history tracking and personalized recommendations",
+        "Subscription, likes, comments, and social interactions",
+        "Scalable architecture for high user and content volume",
       ],
-      impact: "Helping thousands of job seekers find their dream positions",
+      impact:
+        "Achieved 20% faster uploads, 25% lower streaming latency, 40% boost in recommendation accuracy, and 99.9% uptime for seamless user experience.",
     },
   },
   {
     title: "TaskStack",
-    description: "Backend for project and workflow management built with Node.js, Express, and MongoDB, including secure authentication and real-time collaboration features.",
+    description:
+      "Backend for project and workflow management built with Node.js, Express, and MongoDB, including secure authentication and real-time collaboration features.",
     image: "",
     tech: ["Next.js", "TypeScript", "Prisma", "tRPC"],
-    github: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
-    live: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
+    github: "https://github.com/aryanghugare/TaskStack",
+    live: "",
     details: {
-      problem: "Complex meeting scheduling across time zones",
+      problem:
+        "Managing complex workflows, assignments, and team collaboration at scale requires robust APIs, auditability, and secure access control.",
       solution:
-        "Created an intuitive scheduling platform with automated time zone handling",
+        "Built a scalable backend platform for task and workflow management, offering RESTful APIs, role-based access, and integrations for modern product teams.",
       features: [
-        "Multiple calendar integration",
-        "Custom availability rules",
-        "Automated reminders",
-        "Team scheduling",
+        "Task lifecycle management with subtasks, dependencies, and custom fields",
+        "Role-based access control and team membership",
+        "Audit trail, activity feed, and webhooks for integrations",
+        "Advanced search, filtering, and pagination",
+        "Secure authentication with JWT, OAuth2, and API keys",
+        "Scalable architecture with PostgreSQL, Redis, and message queues",
       ],
-      impact: "Reduced meeting scheduling time by 80% for users",
+      impact:
+        "Supports millions of tasks and thousands of users, enabling teams to streamline collaboration, ensure data integrity, and integrate with external tools efficiently.",
     },
   },
-  {
-    title: "Zcrum",
-    description: "A Jira-inspired project management solution",
-    image: "",
-    tech: ["React", "Redux", "Node.js", "PostgreSQL"],
-    github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    details: {
-      problem: "Need for a simplified project management tool for small teams",
-      solution:
-        "Developed a streamlined alternative to complex enterprise tools",
-      features: [
-        "Kanban and Scrum boards",
-        "Sprint planning",
-        "Time tracking",
-        "Performance analytics",
-      ],
-      impact: "Helping teams increase productivity by 40%",
-    },
-  },
-  {
-    title: "Reflct",
-    description: "A minimalist journaling application",
-    image: "",
-    tech: ["Next.js", "Tailwind CSS", "Supabase"],
-    github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    details: {
-      problem: "Digital journaling apps are often cluttered and complex",
-      solution:
-        "Created a clean, focused writing experience with powerful features",
-      features: [
-        "Markdown support",
-        "Daily prompts",
-        "Mood tracking",
-        "Privacy-focused design",
-      ],
-      impact: "Helping users maintain consistent journaling habits",
-    },
-  },
+
+ 
+  
 ];

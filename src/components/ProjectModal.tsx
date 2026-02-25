@@ -102,7 +102,8 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                   <Github className="w-5 h-5" />
                   View Code
                 </a>
-                <a
+              {project.live && (
+               <a
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -111,6 +112,9 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                   <ExternalLink className="w-5 h-5" />
                   Live Demo
                 </a>
+
+
+)}
               </div>
             </div>
           </motion.div>

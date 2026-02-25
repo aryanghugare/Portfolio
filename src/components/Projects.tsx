@@ -78,7 +78,8 @@ export default function Projects() {
                     <Github className="w-5 h-5" />
                     Code
                   </a>
-                  <a
+                 {project.live && (
+ <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -88,6 +89,7 @@ export default function Projects() {
                     <ExternalLink className="w-5 h-5" />
                     Live Demo
                   </a>
+)}
                 </div>
               </div>
             </motion.div>
