@@ -5,7 +5,7 @@ export const projectsData: ProjectItem[] = [
     title: "PlayGrid",
     description:
       " Backend for a video hosting and streaming platform handling real-time uploads and personalized feeds ",
-    image: "../../../public/Playgrid_img.png",
+    image: "/Playgrid_img.png",
     tech: ["Node.js", "MongoDB", "Express"],
     github: "https://github.com/aryanghugare/PlayGrid",
     live: "",
@@ -30,7 +30,7 @@ export const projectsData: ProjectItem[] = [
     title: "TaskStack",
     description:
       "Backend for project and workflow management built with Node.js, Express, and MongoDB, including secure authentication and real-time collaboration features.",
-    image: "../../../public/TaskStack_img.png",
+    image: "/TaskStack_img.png",
     tech: ["Node.js", "MongoDB", "Express"],
     github: "https://github.com/aryanghugare/TaskStack",
     live: "",
@@ -55,7 +55,7 @@ export const projectsData: ProjectItem[] = [
     title: "BlogNest",
     description:
       "A blogging platform built with React, Redux Toolkit, and Appwrite. Users can create, edit, delete, and view posts with authentication and cloud storage.",
-    image: "../../../public/BlogNest_img.png",
+    image: "/BlogNest_img.png",
     tech: ["React", "Redux Toolkit", "Appwrite", "Vite", "TinyMCE", "react-hook-form"],
     github: "https://github.com/aryanghugare/BlogNest",
     live: "https://blog-nest-sigma.vercel.app/",
@@ -80,9 +80,9 @@ export const projectsData: ProjectItem[] = [
     title: "MediaShare Pro",
     description:
       "A modern web application for uploading, managing, and sharing videos in the cloud. Built with Next.js, Prisma, and Cloudinary, it provides a seamless dashboard for authenticated users to upload video files, store metadata in a PostgreSQL database, and leverage Cloudinary for optimized video delivery and sharing.",
-     image: "../../../public/Saas.png",
+    image: "/Saas.png",
     tech: ["Next.js", "Prisma", "Cloudinary", "PostgreSQL", "React", "Tailwind CSS"],
-    github: "",
+    github: "https://github.com/aryanghugare/Media-Saas",
     live: "https://media-saas-u3ca.vercel.app/home",
     details: {
       problem:
