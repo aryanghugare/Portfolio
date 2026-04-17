@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="TaskStack project thumbnail">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7e22ce"/>
+      <stop offset="55%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="18%" r="85%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="62%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14" result="blur"/>
+      <feOffset dy="12" result="offset"/>
+      <feColorMatrix in="offset" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.28 0" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <g opacity="0.16" fill="#ffffff">
+    <circle cx="240" cy="250" r="220"/>
+    <circle cx="1420" cy="220" r="260"/>
+    <circle cx="1240" cy="780" r="320"/>
+  </g>
+
+  <rect x="0" y="560" width="1600" height="340" fill="#0b1020" opacity="0.34"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="120" y="130" width="1360" height="640" rx="36" fill="#0b1020" fill-opacity="0.10"/>
+    <rect x="120" y="130" width="1360" height="640" rx="36" fill="#ffffff" fill-opacity="0.06"/>
+  </g>
+
+  <!-- Icon (stack + check) -->
+  <g transform="translate(1140 584)" opacity="0.96" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="58" width="300" height="180" rx="24" stroke-opacity="0.45" stroke-width="6"/>
+    <rect x="50" y="92" width="300" height="180" rx="24" stroke-opacity="0.40" stroke-width="6"/>
+    <rect x="30" y="126" width="300" height="180" rx="24" stroke-opacity="0.38" stroke-width="6"/>
+
+    <path d="M112 230 L160 276 L252 184" stroke-width="10" stroke-opacity="0.92"/>
+
+    <g stroke-width="6" stroke-opacity="0.35">
+      <path d="M102 170 H270"/>
+      <path d="M102 200 H240"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(170 620)" fill="#ffffff" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    <text x="0" y="0" font-size="68" font-weight="800" letter-spacing="-0.5" dominant-baseline="hanging">TaskStack</text>
+    <text x="0" y="88" font-size="30" font-weight="500" opacity="0.88" dominant-baseline="hanging">Workflow management backend</text>
+    <g transform="translate(0 156)" opacity="0.92">
+      <rect x="0" y="0" width="246" height="44" rx="22" fill="#ffffff" fill-opacity="0.14"/>
+      <text x="22" y="10" font-size="20" font-weight="650" dominant-baseline="hanging" opacity="0.95">Auth · RBAC · APIs</text>
+    </g>
+  </g>
+</svg>
